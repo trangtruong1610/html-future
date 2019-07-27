@@ -4,3 +4,16 @@ body{
     border: 1px solid black;
     margin: 0 auto;
 }
+
+.sectionLeft{
+    width: 35%;
+    height: 100%;
+    float: left;
+}
+
+.sectionRight{
+    width: 65%;
+    height: 100%;
+    float: right;
+    background-color: #E8EDF0;
+}
