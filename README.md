@@ -1,2 +1,2 @@
 MAU CV CHON URL : 
-https://i.etsystatic.com/12366970/r/il/5c2854/1893921960/il_fullxfull.1893921960_rxcz.jpg
+https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/2790297/600/400/m2/fpnw/wm0/first-new-.jpg?1496385852&s=b0ac5cd1bc4a27a50352961bdff8a513
