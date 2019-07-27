@@ -9,6 +9,7 @@ body{
     width: 35%;
     height: 100%;
     float: left;
+    text-align: center;
 }
 
 .sectionRight{
@@ -16,4 +17,25 @@ body{
     height: 100%;
     float: right;
     background-color: #E8EDF0;
+}
+.avatar{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin: 20px auto;
+    background-color: gray;
+}
+.titleL{
+    border: 1px solid wheat;
+    margin: 30px 0;
+    padding: 20px 0;
+}
+
+.content{
+    padding: 5px 20px;
+}
+
+.content ul li{
+    list-style: none;
+    text-align: center;
 }
