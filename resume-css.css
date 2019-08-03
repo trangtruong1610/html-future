@@ -24,7 +24,9 @@ body{
     width: 150px;
     border-radius: 50%;
     margin: 20px auto;
-    background-color: gray;
+    background-image: url("67687877_2610518508958270_8800557275639971840_n.jpg");
+    background-position: center center;
+    background-size: cover;
 }
 .titleL{
     border: 1px solid wheat;
@@ -34,15 +36,17 @@ body{
     margin: 0 auto ;
     background-color: #F0DDCD;
     font-weight: bold;
+    letter-spacing: 3px;
 }
 .section{
-    padding: 5px 0;
+    padding: 15px 0;
     color: gray;
 }
 
 .content{
     padding: 25px 20px;
     text-align: center;
+    font-size: 15px;
 }
 .contact a:link{
     text-decoration: none;
@@ -56,4 +60,74 @@ body{
 .content ul li{
     list-style: none;
     margin: o auto;
+}
+
+.sectionRight{
+    color: gray;
+}
+
+.my-name{
+    height: 150px;
+    width: 450px;
+    border: 1px solid white;
+    background: white;
+    margin: 33px auto;
+}
+
+.name{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+    font-weight: lighter;
+    color: lightslategray;
+}
+.job{
+    text-align: center;
+    padding-top: 5px;
+    letter-spacing: 3px;
+    color: gray;
+}
+
+.name-box{
+    height: 130px;
+    width: 430px;
+    border: 3px solid #F0DDCD;
+    background: white;
+    margin: 7px auto;
+}
+
+.titleR{
+    border: 1px solid wheat;
+    width: 450px;
+    height: 50px;
+    text-align: center;
+    margin: -14px auto ;
+    background-color: #F0DDCD;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.content-box{
+    width: 420px;
+    height: 245px;
+    font-size: 15px;
+    border-left: 3px solid lightgrey;
+    margin: 25px 35px;
+    padding-left: 28px;
+}
+.content-box-1{
+    width: 420px;
+    height: 450px;
+    font-size: 15px;
+    border-left: 3px solid lightgrey;
+    margin: 25px 35px;
+    padding-left: 28px;
+}
+.t1{
+    font-weight: bolder;
+}
+.t2{
+    margin-top: 10px;
+    font-style: italic;
+    font-weight: bold;
 }
