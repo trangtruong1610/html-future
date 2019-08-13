@@ -9,11 +9,22 @@ body{
     width: 35%;
     height: 100%;
     float: left;
+
+
 }
 
 .sectionRight{
     width: 65%;
     height: 100%;
     float: right;
-    background-color: #E8EDF0;
+    background-color: lightblue;
+}
+@media (max-width: 375px) {
+    .sectionLeft {
+        width: 100%;
+
+    }
+    .sectionRight{
+        width: 100%;
+    }
 }
