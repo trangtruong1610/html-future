@@ -1,7 +1,4 @@
 body{
-    width: 50rem;
-    height: 70rem;
-    box-shadow: 0px 0px 30px 5px #F0DDCD;
     margin: 0 auto;
     font-family: 'Roboto Slab', serif;
 }
@@ -15,13 +12,13 @@ body{
 
 .sectionRight{
     width: 65%;
-    height: 100%;
+    height: fit-content;
     float: right;
     background-color: #E8EDF0;
 }
 .avatar{
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
     border-radius: 50%;
     margin: 20px auto;
     background-image: url("avatar.jpg");
@@ -30,21 +27,28 @@ body{
 }
 .titleL{
     border: 1px solid wheat;
-    width: 200px;
     height: 50px;
     text-align: center;
-    margin: 0 auto ;
+    margin: 0 45px ;
     background-color: #F0DDCD;
     font-weight: bold;
     letter-spacing: 3px;
 }
-.section{
+.section-profile{
+    padding-top: 35px;
+    color: gray;
+}
+.section-contact{
+    padding-top: 90px;
+    color: gray;
+}
+.section-expertise{
     padding: 15px 0;
     color: gray;
 }
 
 .content{
-    padding: 25px 20px;
+    padding: 25px 50px ;
     text-align: center;
     font-size: 15px;
 }
@@ -68,10 +72,9 @@ body{
 
 .my-name{
     height: 150px;
-    width: 450px;
     border: 1px solid white;
     background: white;
-    margin: 33px auto;
+    margin: 45px 60px;
 }
 
 .name{
@@ -90,25 +93,27 @@ body{
 
 .name-box{
     height: 130px;
-    width: 430px;
     border: 3px solid #F0DDCD;
     background: white;
-    margin: 7px auto;
+    margin: 7px;
+}
+.education-box{
+    padding-top: 50px;
 }
 
 .titleR{
     border: 1px solid white;
-    width: 450px;
+
     height: 50px;
     text-align: center;
-    margin: -14px auto ;
+    margin: -14px 35px ;
     background-color: white;
     font-weight: bold;
     letter-spacing: 3px;
 }
 
 .content-box{
-    width: 420px;
+
     height: 240px;
     font-size: 15px;
     border-left: 3px solid lightgrey;
@@ -116,7 +121,7 @@ body{
     padding-left: 28px;
 }
 .content-box-1{
-    width: 420px;
+
     height: 450px;
     font-size: 15px;
     border-left: 3px solid lightgrey;
@@ -130,4 +135,53 @@ body{
     margin-top: 10px;
     font-style: italic;
     font-weight: bold;
+}
+.my-name-responsive{
+    display: none;
+}
+@media only screen and (max-width: 375px){
+    .sectionLeft{
+        width: 100%
+    }
+    .sectionRight{
+        width: 100%;
+        height: 1250px;
+        background-color: white;
+    }
+    .my-name{
+        display: none;
+    }
+    .titleR{
+        background-color: #F0DDCD;
+    }
+    .content-box{
+        height: 320px;
+        margin: 35px;
+    }
+    .content-box-1{
+        height: 610px;
+        margin: 35px;
+    }
+    .my-name-responsive{
+        height: 80px;
+        display: block;
+        background-color: #E8EDF0;
+        padding: 10px;
+        margin: 20 auto;
+    }
+    .name-box-responsive{
+        margin: 10px auto;
+    }
+    .name-responsive{
+
+        font-size: 30px;
+        font-weight: lighter;
+        color: lightslategray;
+    }
+    .job-responsive{
+        letter-spacing: 3px;
+        color: gray;
+        text-align: center;
+    }
+
 }
