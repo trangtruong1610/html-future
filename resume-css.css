@@ -103,7 +103,6 @@ body{
 
 .titleR{
     border: 1px solid white;
-
     height: 50px;
     text-align: center;
     margin: -14px 35px ;
@@ -139,7 +138,7 @@ body{
 .my-name-responsive{
     display: none;
 }
-@media only screen and (max-width: 375px){
+@media only screen and (min-width: 300px) and (max-width: 830px){
     .sectionLeft{
         width: 100%
     }
@@ -153,6 +152,7 @@ body{
     }
     .titleR{
         background-color: #F0DDCD;
+        font-size: 15px;
     }
     .content-box{
         height: 320px;
@@ -170,11 +170,12 @@ body{
         margin: 20 auto;
     }
     .name-box-responsive{
+        text-align: center;
         margin: 10px auto;
     }
     .name-responsive{
 
-        font-size: 30px;
+        font-size: 25px;
         font-weight: lighter;
         color: lightslategray;
     }
