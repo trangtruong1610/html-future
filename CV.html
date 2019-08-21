@@ -19,14 +19,26 @@
 
     </div>
     <div class="sectionLeft">
-        <div class="avatar"></div>
-        <div class="section-profile">
+        <div class="dropdown">
+            <button onclick="myFunction()" class="button">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+                    <a href="#avatar">Profile</a>
+                    <a href="#contact">Contact</a>
+                    <a href="#expertise">Expertise</a>
+                    <a href="#education">Education</a>
+                    <a href="#experience">Experience</a>
+            </div>
+        </div>
+        <div id="avatar" class="avatar"></div>
+        <div id="profile" class="section-profile">
             <div class="titleL"><p>PROFILE</p></div>
             <div class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab error fuga inventore minima minus nemo numquam omnis, optio quia quisquam rem reprehenderit saepe, soluta vero
                 voluptates.temporibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet</div>
         </div>
         <br>
-        <div class="section-contact">
+        <div id="contact" class="section-contact">
             <div class="titleL"><p>CONTACT</p></div>
             <div class="content">
                 <div class="contact">
@@ -51,7 +63,7 @@
             </div>
         </div>
 
-        <div class="section-expertise">
+        <div id="expertise" class="section-expertise">
             <div class="titleL"><p>EXPERTISE</p></div>
             <div class="content">
                 <div>Project Design</div>
@@ -72,7 +84,7 @@
             </div>
         </div>
 
-        <div class="education-box">
+        <div id="education" class="education-box">
             <div class="titleR"><p>EDUCATION</p></div>
                 <div class="content-box">
                     <div class="content-right">
@@ -89,7 +101,7 @@
             </div>
         </div>
         <br>
-        <div class="experience-box">
+        <div id="experience" class="experience-box">
             <div class="titleR"><p>PROFESSIONAL EXPERIENCE</p></div>
             <div class="content-box-1">
                 <div class="content-right">
@@ -119,7 +131,23 @@
         </div>
 
     </div>
-
+    <script>
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+        window.onclick = function(event) {
+            if (!event.target.matches('.button')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
 
 </body>
 </html>
