@@ -1,18 +1,21 @@
 body{
     margin: 0 auto;
     font-family: 'Roboto Slab', serif;
+    background-color: #F0DDCD;
+
 }
 
 .sectionLeft{
     width: 35%;
-    height: 100%;
+    height: 1300px;
     float: left;
     text-align: center;
+    background-color: white;
 }
 
 .sectionRight{
     width: 65%;
-    height: fit-content;
+    height: 1300px;
     float: right;
     background-color: #E8EDF0;
 }
@@ -29,6 +32,7 @@ body{
     border: 1px solid wheat;
     height: 50px;
     text-align: center;
+    line-height: 50px;
     margin: 0 45px ;
     background-color: #F0DDCD;
     font-weight: bold;
@@ -63,7 +67,7 @@ body{
 
 .content ul li{
     list-style: none;
-    margin: o auto;
+    margin: 0 auto;
 }
 
 .sectionRight{
@@ -104,6 +108,7 @@ body{
 .titleR{
     border: 1px solid white;
     height: 50px;
+    line-height: 50px;
     text-align: center;
     margin: -14px 35px ;
     background-color: white;
@@ -144,7 +149,7 @@ body{
     }
     .sectionRight{
         width: 100%;
-        height: 1250px;
+        height: 100%;
         background-color: white;
     }
     .my-name{
@@ -167,7 +172,7 @@ body{
         display: block;
         background-color: #E8EDF0;
         padding: 10px;
-        margin: 20 auto;
+        margin: 20px auto;
     }
     .name-box-responsive{
         text-align: center;
